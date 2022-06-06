@@ -4,20 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; */
 
+            /* Short hand- Background
+        color > image > position > repeat > [size] > attachment
+
+         */
+       /* Short hand correto:  
+       background: black url('imagens/wallpaper002.jpg') center center /cover no-repeat fixed; */
+
+         background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+         background-size: cover;
+            
         }
+
+        
+
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid blue;
@@ -29,7 +43,11 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto a ex nesciunt, veritatis esse nobis similique. Fugiat, consequuntur? Minima eius ab odio eum voluptatum accusamus facere ea animi vero possimus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius delectus placeat, modi officia assumenda, facere dolor est totam tempora obcaecati, dolores rerum. Mollitia accusamus optio quas? Iure ducimus tempore nulla. </p>
-       
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore veritatis nobis aliquam rerum voluptas, provident consequuntur magni vero itaque nihil totam delectus, corrupti sequi expedita eveniet nisi et eos alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, velit iste ad nesciunt, natus autem placeat pariatur, ratione similique non voluptatibus blanditiis fugit nihil? Nulla, deleniti? Mollitia voluptatibus iusto consectetur!</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, nam animi ullam quia sequi accusamus harum corporis deleniti ipsam sunt, reprehenderit dolorem nemo corrupti enim vero quaerat, repellendus vel nostrum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt eum laudantium facilis corrupti sit, recusandae unde. Earum laboriosam totam eligendi cumque tempore minus consequuntur, ut culpa accusantium quibusdam! In, incidunt?</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, nam animi ullam quia sequi accusamus harum corporis deleniti ipsam sunt, reprehenderit dolorem nemo corrupti enim vero quaerat, repellendus vel nostrum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt eum laudantium facilis corrupti sit, recusandae unde. Earum laboriosam totam eligendi cumque tempore minus consequuntur, ut culpa accusantium quibusdam! In, incidunt?</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, nam animi ullam quia sequi accusamus harum corporis deleniti ipsam sunt, reprehenderit dolorem nemo corrupti enim vero quaerat, repellendus vel nostrum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt eum laudantium facilis corrupti sit, recusandae unde. Earum laboriosam totam eligendi cumque tempore minus consequuntur, ut culpa accusantium quibusdam! In, incidunt?</p>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, nam animi ullam quia sequi accusamus harum corporis deleniti ipsam sunt, reprehenderit dolorem nemo corrupti enim vero quaerat, repellendus vel nostrum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt eum laudantium facilis corrupti sit, recusandae unde. Earum laboriosam totam eligendi cumque tempore minus consequuntur, ut culpa accusantium quibusdam! In, incidunt?</p>
     </main>
 </body>
 </html>
